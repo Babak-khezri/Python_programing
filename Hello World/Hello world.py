@@ -4,7 +4,7 @@ from time import sleep
 
 def hello_world(program):
     keyboard.press_and_release("windows+r")
-    sleep(0.5)
+    sleep(1)
     pyautogui.typewrite("notepad")
     sleep(0.5)
     keyboard.press_and_release("return")
